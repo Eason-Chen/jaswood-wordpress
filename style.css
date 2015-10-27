@@ -1,0 +1,259 @@
+@import "css/reset.css";
+@import "css/basic.css";
+@charset "UTF-8";
+/*
+Them Name: JasWood wordpress them
+Author: 3A - Eason
+Version: 1.0
+ */
+
+/* font pull in start */
+@font-face{
+font-family: MyriadPro;
+src: url('font/MyriadPro-Regular.otf');
+}
+/* font pull in end */
+
+/* full width setting start */
+header,footer{
+	width: 100%;
+	background-color: #2C4410;
+}
+/* full width setting end*/
+
+/* version start*/
+.version{
+	padding-top: 50px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+.version a{
+	color: #000;
+	font-size: 12px;
+}
+/* version end*/
+
+/* logo start*/
+.logo_position{
+	position: relative;
+}
+.logo{
+	position: absolute;
+	left: 0;
+	top: -45px;
+	width: 182px;
+	height: 182px;
+	background: url(imgs/logo.png) no-repeat left center;
+}
+/* logo end*/
+
+/* navigation start */
+nav ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+	padding-left: 182px;
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	margin: 35px 18px;
+}
+nav ul li:last-of-type{
+	margin-right: 0;
+}
+nav ul li a{
+	padding: 5px 0;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+nav ul li.current-menu-item a:link,
+nav ul li.current-menu-item a:visited,
+nav ul li a:hover,
+nav ul li a:focus {
+  border-bottom: 2px solid #F8BC64;
+}
+/* navigation end */
+
+/* content setart*/
+.content{
+	margin-top: 85px;
+	margin-bottom: 30px;
+}
+/* content end*/
+
+/* footer start */
+.form{
+	float: left;
+	width: 450px;
+	margin-top: 50px;
+}
+address{
+	float: right;
+	width: 450px;
+	margin-top: 50px;
+}
+.footer_title{
+	color: #fff;
+	font-size: 18px;
+}
+.footer_space{
+	margin-bottom: 20px;
+}
+.icon{
+	height: 45px;
+	line-height: 45px;
+	text-indent: 65px;
+}
+.addIcon{
+	background: url(imgs/icon1.png) no-repeat left center;
+}
+.addIcon_b{
+	background: url(imgs/bicon1.png) no-repeat left center;
+}
+.phoneIcon{
+	background: url(imgs/icon2.png) no-repeat left center;
+}
+.phoneIcon_b{
+	background: url(imgs/bicon2.png) no-repeat left center;
+}
+.emailIcon{
+	background: url(imgs/icon3.png) no-repeat left center;
+}
+.emailIcon_b{
+	background: url(imgs/bicon3.png) no-repeat left center;
+}
+address img{
+	margin-right: 20px;
+}
+address p{
+	color: #fff;
+}
+.copy{
+	text-align: center;
+	color: #fff;
+	padding: 15px 0;
+}
+/* footer end */
+
+/* about article start */
+.about_img{
+	float: left;
+	width: 370px;
+	height: auto;
+	margin-right: 15px;
+}
+/* about article end*/
+
+/* article start */
+article{
+	margin-bottom: 50px;
+}
+table{
+	width: 990px;
+	height: auto;
+	margin-top: 30px;
+	font-size: 14px;
+}
+table thead{
+	padding: 10px 0;
+	color: #fff;
+	background: #2C4410;
+	text-align: center;
+}
+table tr td{
+	padding: 10px 0;
+	text-align: center;
+}
+/* article end*/
+
+/* product items start*/
+.grade{
+	margin-right: -81px;
+}
+.items{
+	float: left;
+	width: 276px;
+	height: auto;
+	margin: 30px 81px 30px 0;
+}
+.items p{
+	height: 50px;
+	width: 276px;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+/* product items end */
+
+/* form start */
+.form_contact{
+	float: left;
+	width: 450px;
+}
+.contitle{
+	margin-bottom: 50px;
+}
+.add{
+	float: right;
+	width: 450px;
+}
+.add img{
+	margin-right: 80px;
+}
+iframe{
+	margin-top: 50px;
+}
+/* form end*/
+
+/* form setting start */
+input,
+textarea{
+	outline: none;
+	padding: 5px;
+	background: transparent;
+	border: 1px solid #EEE;
+	color: #eee;
+}
+textarea{
+	resize: none;
+}
+.send{
+	float: right;
+	padding: 7px 15px;
+	background: #2C4410;
+	color: #fff;
+}
+#ninja_forms_form_1_response_msg{
+ 	margin-top: 20px;
+}
+#ninja_forms_field_3{
+	height: 100px;
+}
+.hp-wrap{
+	display: none;
+}
+#ninja_forms_form_8_all_fields_wrap input,
+#ninja_forms_form_8_all_fields_wrap textarea{
+	width: 100%;
+	margin: 10px 0;
+	border: 1px solid #000;
+	outline: none;
+	padding: 5px;
+	background: transparent;
+	color: #000;
+}
+#ninja_forms_form_8_all_fields_wrap textarea{
+	height: 200px;
+}
+#ninja_forms_form_8_all_fields_wrap input.contact_send{
+	width: 80px;
+	float: right;
+	padding: 7px 15px;
+}
+/* form setting end */
+
+/* gallery image caption start */
+.gallery-caption{
+	line-height: 20px;
+	font-size: 14px;
+}
